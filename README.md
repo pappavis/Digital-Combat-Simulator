@@ -1,6 +1,6 @@
 # Digital-Combat-Simulator
-Cockpit Panels en printplate vir DCS World door Michiel Erasmus
-This is the main powerpanel design for flightsimulator DCS: MiG-21bis.
+Afrikaans: Cockpit Panels en printplate vir DCS World door Michiel Erasmus <br/>
+ENG: This is the main powerpanel design for flightsimulator DCS: MiG-21bis.
 
 Requiremens:
 ---
