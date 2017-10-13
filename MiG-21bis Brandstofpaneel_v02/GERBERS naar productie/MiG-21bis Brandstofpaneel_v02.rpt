@@ -1,0 +1,1384 @@
+## Module report - date 9-2-2016 21:27:30
+## Created by Pcbnew version kicad 4.0.0-rc2-stable
+## Unit = inches, Angle = deg.
+##
+
+$BeginDESCRIPTION
+
+$BOARD
+unit INCH
+upper_left_corner  1.018701  0.824803
+lower_right_corner  8.328740  3.860236
+$EndBOARD
+
+$MODULE "DR1"
+reference "DR1"
+value "Gat1"
+footprint "Mounting_Holes:MountingHole_4mm"
+attribut none
+position  1.279528  1.141732
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.157480  0.157480
+drill  0.157480
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  none
+$EndPAD
+$EndMODULE  DR1
+
+$MODULE "DR2"
+reference "DR2"
+value "Gaatjie-2"
+footprint "Mounting_Holes:MountingHole_4mm"
+attribut none
+position  1.259843  3.622047
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.157480  0.157480
+drill  0.157480
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  none
+$EndPAD
+$EndMODULE  DR2
+
+$MODULE "DR3"
+reference "DR3"
+value "Gaatje3"
+footprint "Mounting_Holes:MountingHole_4mm"
+attribut none
+position  8.129921  1.102362
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.157480  0.157480
+drill  0.157480
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  none
+$EndPAD
+$EndMODULE  DR3
+
+$MODULE "DR4"
+reference "DR4"
+value "http://vfplus.co.za"
+footprint "Mounting_Holes:MountingHole_4mm"
+attribut none
+position  8.149606  3.562992
+orientation  0.00
+layer component
+$PAD "1"
+position  0.000000  0.000000
+size  0.157480  0.157480
+drill  0.157480
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  none
+$EndPAD
+$EndMODULE  DR4
+
+$MODULE "IC1"
+reference "IC1"
+value "MAX487"
+footprint "w_pth_circuits:dil_8-300"
+attribut none
+position  4.035433  3.267717
+orientation  180.00
+layer component
+$SHAPE3D
+Na "walter/pth_circuits/dil_8-300.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.150000  0.150000
+size  0.059100  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "2"
+position -0.050000  0.150000
+size  0.059100  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "3"
+position  0.050000  0.150000
+size  0.059100  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "4"
+position  0.150000  0.150000
+size  0.059100  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "5"
+position  0.150000 -0.150000
+size  0.059100  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "6"
+position  0.050000 -0.150000
+size  0.059100  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "7"
+position -0.050000 -0.150000
+size  0.059100  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "8"
+position -0.150000 -0.150000
+size  0.059100  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$EndMODULE  IC1
+
+$MODULE "J1"
+reference "J1"
+value "Arduino_Nano_Header"
+footprint "w_conn_misc:arduino_nano_header"
+attribut none
+position  2.755906  3.307087
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/conn_misc/arduino_nano_header.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.700000  0.300000
+size  0.060000  0.086600
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "2"
+position -0.600000  0.300000
+size  0.060000  0.086600
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "3"
+position -0.500000  0.300000
+size  0.060000  0.086600
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "4"
+position -0.400000  0.300000
+size  0.060000  0.086600
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "5"
+position -0.300000  0.300000
+size  0.060000  0.086600
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "6"
+position -0.200000  0.300000
+size  0.060000  0.086600
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "7"
+position -0.100000  0.300000
+size  0.060000  0.086600
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "8"
+position  0.000000  0.300000
+size  0.060000  0.086600
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "9"
+position  0.100000  0.300000
+size  0.060000  0.086600
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "10"
+position  0.200000  0.300000
+size  0.060000  0.086600
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "11"
+position  0.300000  0.300000
+size  0.060000  0.086600
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "12"
+position  0.400000  0.300000
+size  0.060000  0.086600
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "13"
+position  0.500000  0.300000
+size  0.060000  0.086600
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "14"
+position  0.600000  0.300000
+size  0.060000  0.086600
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "15"
+position  0.700000  0.300000
+size  0.060000  0.086600
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "16"
+position  0.700000 -0.300000
+size  0.060000  0.086600
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "17"
+position  0.600000 -0.300000
+size  0.060000  0.086600
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "18"
+position  0.500000 -0.300000
+size  0.060000  0.086600
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "19"
+position  0.400000 -0.300000
+size  0.060000  0.086600
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "20"
+position  0.300000 -0.300000
+size  0.060000  0.086500
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "21"
+position  0.200000 -0.300000
+size  0.060000  0.086500
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "22"
+position  0.100000 -0.300000
+size  0.060000  0.086500
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "23"
+position  0.000000 -0.300000
+size  0.060000  0.086500
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "24"
+position -0.100000 -0.300000
+size  0.060000  0.086500
+drill  0.039300
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "25"
+position -0.200000 -0.300000
+size  0.060000  0.086500
+drill  0.039300
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "26"
+position -0.300000 -0.300000
+size  0.060000  0.086500
+drill  0.039300
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "27"
+position -0.400000 -0.300000
+size  0.060000  0.086500
+drill  0.039300
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "28"
+position -0.500000 -0.300000
+size  0.060000  0.086500
+drill  0.039300
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "29"
+position -0.600000 -0.300000
+size  0.060000  0.086500
+drill  0.039300
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "30"
+position -0.700000 -0.300000
+size  0.060000  0.086500
+drill  0.039300
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$EndMODULE  J1
+
+$MODULE "RV1"
+reference "RV1"
+value "POT_kajuit"
+footprint "Potentiometers:Potentiometer_Alps-RK163-single_15mm"
+attribut none
+position  6.181102  1.968504
+orientation  0.00
+layer component
+$SHAPE3D
+Na "Potentiometers.3dshapes/Potentiometer_Alps-RK163-single_15mm.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "2"
+position  0.000000 -0.200000
+size  0.098400  0.098400
+drill  0.047200
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "3"
+position  0.000000 -0.400000
+size  0.098400  0.098400
+drill  0.047200
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "1"
+position  0.000000  0.000000
+size  0.098400  0.098400
+drill  0.047200
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$EndMODULE  RV1
+
+$MODULE "RV2"
+reference "RV2"
+value "POT_instr"
+footprint "Potentiometers:Potentiometer_Alps-RK163-single_15mm"
+attribut none
+position  7.559055  1.968504
+orientation  0.00
+layer component
+$SHAPE3D
+Na "Potentiometers.3dshapes/Potentiometer_Alps-RK163-single_15mm.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "2"
+position  0.000000 -0.200000
+size  0.098400  0.098400
+drill  0.047200
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "3"
+position  0.000000 -0.400000
+size  0.098400  0.098400
+drill  0.047200
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "1"
+position  0.000000  0.000000
+size  0.098400  0.098400
+drill  0.047200
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$EndMODULE  RV2
+
+$MODULE "SW1"
+reference "SW1"
+value "Насос 3 гр. баков"
+footprint "w_switch:switch_100sp5"
+attribut none
+position  1.968504  2.559055
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/switch/switch_100sp5.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.185000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "2"
+position  0.000000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "3"
+position  0.185000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$EndMODULE  SW1
+
+$MODULE "SW2"
+reference "SW2"
+value "Расход. насос"
+footprint "w_switch:switch_100sp5"
+attribut none
+position  1.948819  1.811024
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/switch/switch_100sp5.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.185000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "2"
+position  0.000000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "3"
+position  0.185000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$EndMODULE  SW2
+
+$MODULE "SW3"
+reference "SW3"
+value "Насос 1 гр. баков"
+footprint "w_switch:switch_100sp5"
+attribut none
+position  1.948819  1.122047
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/switch/switch_100sp5.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.185000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "2"
+position  0.000000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "3"
+position  0.185000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$EndMODULE  SW3
+
+$MODULE "SW4"
+reference "SW4"
+value "NOOD_INV"
+footprint "w_switch:switch_100sp5"
+attribut none
+position  3.051181  1.122047
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/switch/switch_100sp5.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.185000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "2"
+position  0.000000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "3"
+position  0.185000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$EndMODULE  SW4
+
+$MODULE "SW5"
+reference "SW5"
+value "САУ"
+footprint "w_switch:switch_100sp5"
+attribut none
+position  3.051181  1.830709
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/switch/switch_100sp5.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.185000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "2"
+position  0.000000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "3"
+position  0.185000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$EndMODULE  SW5
+
+$MODULE "SW6"
+reference "SW6"
+value "KПП"
+footprint "w_switch:switch_100sp5"
+attribut none
+position  3.070866  2.559055
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/switch/switch_100sp5.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.185000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "2"
+position  0.000000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "3"
+position  0.185000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$EndMODULE  SW6
+
+$MODULE "SW7"
+reference "SW7"
+value "Генератор"
+footprint "w_switch:switch_100sp5"
+attribut none
+position  4.015748  1.122047
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/switch/switch_100sp5.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.185000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "2"
+position  0.000000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "3"
+position  0.185000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$EndMODULE  SW7
+
+$MODULE "SW8"
+reference "SW8"
+value "АККУМ"
+footprint "w_switch:switch_100sp5"
+attribut none
+position  4.035433  2.559055
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/switch/switch_100sp5.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.185000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "2"
+position  0.000000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "3"
+position  0.185000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$EndMODULE  SW8
+
+$MODULE "SW10"
+reference "SW10"
+value "Gen. aerod"
+footprint "w_switch:switch_100sp5"
+attribut none
+position  5.000000  1.122047
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/switch/switch_100sp5.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.185000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "2"
+position  0.000000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "3"
+position  0.185000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$EndMODULE  SW10
+
+$MODULE "SW11"
+reference "SW11"
+value "SPRD-drop"
+footprint "w_switch:switch_100sp5"
+attribut none
+position  5.000000  1.811024
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/switch/switch_100sp5.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.185000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "2"
+position  0.000000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "3"
+position  0.185000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$EndMODULE  SW11
+
+$MODULE "SW12"
+reference "SW12"
+value "SPRD"
+footprint "w_switch:switch_100sp5"
+attribut none
+position  5.019685  2.559055
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/switch/switch_100sp5.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.185000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "2"
+position  0.000000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "3"
+position  0.185000  0.000000
+size  0.118000  0.118000
+drill  0.072700
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$EndMODULE  SW12
+
+$MODULE "J2"
+reference "J2"
+value "HDR_4_I2C"
+footprint "Pin_Headers:Pin_Header_Straight_1x04"
+attribut none
+position  1.279528  1.791339
+orientation  180.00
+layer component
+$SHAPE3D
+Na "Pin_Headers.3dshapes/Pin_Header_Straight_1x04.wrl"
+Sc 1 1 1
+Of 0 -0.15 0
+Ro 0 0 90
+$EndSHAPE3D
+$PAD "1"
+position  0.000000  0.000000
+size  0.080000  0.068000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  both
+$EndPAD
+$PAD "2"
+position  0.000000  0.100000
+size  0.080000  0.068000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "3"
+position  0.000000  0.200000
+size  0.080000  0.068000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$PAD "4"
+position  0.000000  0.300000
+size  0.080000  0.068000
+drill  0.040000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  both
+$EndPAD
+$EndMODULE  J2
+
+$MODULE "J3"
+reference "J3"
+value "HDR_5_Alg.IO"
+footprint "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_5pol"
+attribut none
+position  1.358268  2.263780
+orientation  270.00
+layer component
+$SHAPE3D
+Na "Terminal_Blocks.3dshapes/TerminalBlock_Pheonix_PT-3.5mm_5pol.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "2"
+position  0.137795  0.000000
+size  0.094488  0.094488
+drill  0.047244
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "1"
+position  0.000000  0.000000
+size  0.094488  0.094488
+drill  0.047244
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  both
+$EndPAD
+$PAD "3"
+position  0.275591  0.000000
+size  0.094488  0.094488
+drill  0.047244
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "4"
+position  0.413386  0.000000
+size  0.094488  0.094488
+drill  0.047244
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "5"
+position  0.551181  0.000000
+size  0.094488  0.094488
+drill  0.047244
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$EndMODULE  J3
+
+$MODULE "J4"
+reference "J4"
+value "RJ45-max487"
+footprint "Connect:RJ45_8"
+attribut none
+position  5.019685  3.503937
+orientation  0.00
+layer component
+$SHAPE3D
+Na "Connect.3dshapes/RJ45_8.wrl"
+Sc 0.4 0.4 0.4
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "Hole"
+position  0.233800  0.000000
+size  0.143700  0.143700
+drill  0.128000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "Hole"
+position -0.233500  0.000000
+size  0.143700  0.143700
+drill  0.128000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "1"
+position -0.175000 -0.250000
+size  0.059100  0.059100
+drill  0.035400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  both
+$EndPAD
+$PAD "2"
+position -0.125000 -0.350000
+size  0.059100  0.059100
+drill  0.035400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "3"
+position -0.075000 -0.250000
+size  0.059100  0.059100
+drill  0.035400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "4"
+position -0.025000 -0.350000
+size  0.059100  0.059100
+drill  0.035400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "5"
+position  0.025000 -0.250000
+size  0.059100  0.059100
+drill  0.035400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "6"
+position  0.075000 -0.350000
+size  0.059100  0.059100
+drill  0.035400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "7"
+position  0.125000 -0.250000
+size  0.059100  0.059100
+drill  0.035400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "8"
+position  0.175000 -0.350000
+size  0.059100  0.059100
+drill  0.035400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$EndMODULE  J4
+
+$MODULE "LO1"
+reference "LO1"
+value "OSHW"
+footprint "w_logo:Logo_silk_OSHW_12x13mm"
+attribut none
+position  3.976378  1.811024
+orientation  0.00
+layer component
+$EndMODULE  LO1
+
+$MODULE "LO2"
+reference "LO2"
+value "sovjet-simpits.nl"
+footprint "swartskaap@gmail:LOGO-sovjetSimpits"
+attribut none
+position  6.003937  3.228346
+orientation  0.00
+layer component
+$EndMODULE  LO2
+
+$MODULE "SW9"
+reference "SW9"
+value "Knoppie-1"
+footprint "w_switch:PCB_PUSH"
+attribut none
+position  6.181102  2.539370
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/switch/pcb_push.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$PAD "1"
+position -0.088600 -0.128000
+size  0.078700  0.078700
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "2"
+position  0.088600  0.128000
+size  0.078700  0.078700
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "4"
+position  0.088600 -0.128000
+size  0.078700  0.078700
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$PAD "3"
+position -0.088600  0.128000
+size  0.078700  0.078700
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  ???
+Layer  both
+$EndPAD
+$EndMODULE  SW9
+
+$LINE 
+start 7.362205 3.858268
+end 8.228346 3.858268
+width 0.003937
+$EndLINE 
+$LINE 
+start 1.082677 3.858268
+end 7.362205 3.858268
+width 0.003937
+$EndLINE 
+$LINE 
+start 8.326772 3.759843
+end 8.228346 3.858268
+width 0.003937
+$EndLINE 
+$LINE 
+start 8.326772 0.885827
+end 8.326772 3.759843
+width 0.003937
+$EndLINE 
+$LINE 
+start 8.267717 0.826772
+end 8.326772 0.885827
+width 0.003937
+$EndLINE 
+$LINE 
+start 6.082677 0.826772
+end 8.267717 0.826772
+width 0.003937
+$EndLINE 
+$LINE 
+start 1.082677 0.826772
+end 1.023622 0.885827
+width 0.003937
+$EndLINE 
+$LINE 
+start 6.023622 0.826772
+end 6.082677 0.826772
+width 0.003937
+$EndLINE 
+$LINE 
+start 1.023622 3.799213
+end 1.082677 3.858268
+width 0.003937
+$EndLINE 
+$LINE 
+start 1.023622 3.779528
+end 1.023622 3.799213
+width 0.003937
+$EndLINE 
+$LINE 
+start 1.023622 3.444882
+end 1.023622 3.799213
+width 0.003937
+$EndLINE 
+$LINE 
+start 1.023622 3.287402
+end 1.023622 3.444882
+width 0.003937
+$EndLINE 
+$LINE 
+start 1.023622 0.885827
+end 1.023622 3.287402
+width 0.003937
+$EndLINE 
+$LINE 
+start 1.082677 0.826772
+end 6.023622 0.826772
+width 0.003937
+$EndLINE 
+$EndDESCRIPTION

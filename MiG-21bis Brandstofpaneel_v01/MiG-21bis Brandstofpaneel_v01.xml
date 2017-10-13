@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>B:/Dropbox/michiele/Aruino/PCB Ontwerp/KiCAD/DCS World/MiG-21bis Brandstofpaneel_v01.sch</source>
+    <date>14-12-2015 20:55:43</date>
+    <tool>Eeschema 4.0.0-rc2-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>brandstof aan-uit skakelaars</title>
+        <company>sovjet-simpits.nl</company>
+        <rev>0.1alfa</rev>
+        <date>2015-12-13</date>
+        <source>MiG-21bis Brandstofpaneel_v01.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="SW1">
+      <value>SPST</value>
+      <footprint>w_switch:smd_push</footprint>
+      <libsource lib="device" part="SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566DE181</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0201</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566DE20E</tstamp>
+    </comp>
+    <comp ref="Arduino1">
+      <value>Arduino_Header</value>
+      <footprint>w_conn_misc:arduino_header</footprint>
+      <libsource lib="w_connectors" part="Arduino_Header"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566DE5AB</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="w_connectors" part="Arduino_Header">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Arduino_Header</field>
+      </fields>
+      <pins>
+        <pin num="2" name="IOREF" type="passive"/>
+        <pin num="3" name="RESET" type="passive"/>
+        <pin num="4" name="3.3V" type="passive"/>
+        <pin num="5" name="5V" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="VIN" type="passive"/>
+        <pin num="9" name="AD0" type="passive"/>
+        <pin num="10" name="AD1" type="passive"/>
+        <pin num="11" name="AD2" type="passive"/>
+        <pin num="12" name="AD3" type="passive"/>
+        <pin num="13" name="AD4/SDA" type="passive"/>
+        <pin num="14" name="AD5/SCL" type="passive"/>
+        <pin num="15" name="RX/IO0" type="passive"/>
+        <pin num="16" name="TX/IO1" type="passive"/>
+        <pin num="17" name="INT0/IO2" type="passive"/>
+        <pin num="18" name="INT1/IO3" type="passive"/>
+        <pin num="19" name="T0/IO4" type="passive"/>
+        <pin num="20" name="T1/PWM/IO5" type="passive"/>
+        <pin num="21" name="AIN0/PWM/IO6" type="passive"/>
+        <pin num="22" name="AIN1/IO7" type="passive"/>
+        <pin num="23" name="ICP/IO8" type="passive"/>
+        <pin num="24" name="OC1/PWM/IO9" type="passive"/>
+        <pin num="25" name="SS/PWM/IO10" type="passive"/>
+        <pin num="26" name="MOSI/PWM/IO11" type="passive"/>
+        <pin num="27" name="MISO/IO12" type="passive"/>
+        <pin num="28" name="SCK/IO13" type="passive"/>
+        <pin num="29" name="GND" type="passive"/>
+        <pin num="30" name="AREF" type="passive"/>
+        <pin num="31" name="AD4/SDA" type="passive"/>
+        <pin num="32" name="AD5/SCL" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SPST">
+      <description>Interrupteur simple</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="w_connectors">
+      <uri>B:\Dropbox\michiele\Aruino\PCB Ontwerp\KiCAD\biliotheken\libs\w_connectors.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Arduino1-Pad14)">
+      <node ref="Arduino1" pin="14"/>
+    </net>
+    <net code="2" name="Net-(Arduino1-Pad24)">
+      <node ref="Arduino1" pin="24"/>
+    </net>
+    <net code="3" name="Net-(Arduino1-Pad23)">
+      <node ref="Arduino1" pin="23"/>
+    </net>
+    <net code="4" name="Net-(Arduino1-Pad22)">
+      <node ref="Arduino1" pin="22"/>
+    </net>
+    <net code="5" name="Net-(Arduino1-Pad21)">
+      <node ref="Arduino1" pin="21"/>
+    </net>
+    <net code="6" name="Net-(Arduino1-Pad19)">
+      <node ref="Arduino1" pin="19"/>
+    </net>
+    <net code="7" name="Net-(Arduino1-Pad18)">
+      <node ref="Arduino1" pin="18"/>
+    </net>
+    <net code="8" name="Net-(Arduino1-Pad17)">
+      <node ref="Arduino1" pin="17"/>
+    </net>
+    <net code="9" name="Net-(Arduino1-Pad16)">
+      <node ref="Arduino1" pin="16"/>
+    </net>
+    <net code="10" name="Net-(Arduino1-Pad15)">
+      <node ref="Arduino1" pin="15"/>
+    </net>
+    <net code="11" name="Net-(Arduino1-Pad25)">
+      <node ref="Arduino1" pin="25"/>
+    </net>
+    <net code="12" name="Net-(Arduino1-Pad13)">
+      <node ref="Arduino1" pin="13"/>
+    </net>
+    <net code="13" name="Net-(Arduino1-Pad12)">
+      <node ref="Arduino1" pin="12"/>
+    </net>
+    <net code="14" name="Net-(Arduino1-Pad11)">
+      <node ref="Arduino1" pin="11"/>
+    </net>
+    <net code="15" name="Net-(Arduino1-Pad10)">
+      <node ref="Arduino1" pin="10"/>
+    </net>
+    <net code="16" name="Net-(Arduino1-Pad9)">
+      <node ref="Arduino1" pin="9"/>
+    </net>
+    <net code="17" name="Net-(Arduino1-Pad8)">
+      <node ref="Arduino1" pin="8"/>
+    </net>
+    <net code="18" name="Net-(Arduino1-Pad7)">
+      <node ref="Arduino1" pin="7"/>
+    </net>
+    <net code="19" name="Net-(Arduino1-Pad6)">
+      <node ref="Arduino1" pin="6"/>
+    </net>
+    <net code="20" name="Net-(Arduino1-Pad29)">
+      <node ref="Arduino1" pin="29"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="21" name="Net-(Arduino1-Pad28)">
+      <node ref="Arduino1" pin="28"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="23" name="Net-(Arduino1-Pad5)">
+      <node ref="Arduino1" pin="5"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="24" name="Net-(Arduino1-Pad4)">
+      <node ref="Arduino1" pin="4"/>
+    </net>
+    <net code="25" name="Net-(Arduino1-Pad20)">
+      <node ref="Arduino1" pin="20"/>
+    </net>
+    <net code="26" name="Net-(Arduino1-Pad32)">
+      <node ref="Arduino1" pin="32"/>
+    </net>
+    <net code="27" name="Net-(Arduino1-Pad31)">
+      <node ref="Arduino1" pin="31"/>
+    </net>
+    <net code="28" name="Net-(Arduino1-Pad30)">
+      <node ref="Arduino1" pin="30"/>
+    </net>
+    <net code="29" name="Net-(Arduino1-Pad27)">
+      <node ref="Arduino1" pin="27"/>
+    </net>
+    <net code="30" name="Net-(Arduino1-Pad26)">
+      <node ref="Arduino1" pin="26"/>
+    </net>
+    <net code="31" name="Net-(Arduino1-Pad3)">
+      <node ref="Arduino1" pin="3"/>
+    </net>
+    <net code="32" name="Net-(Arduino1-Pad2)">
+      <node ref="Arduino1" pin="2"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,62 @@
+(export (version D)
+  (design
+    (source "B:/Dropbox/michiele/Aruino/PCB Ontwerp/KiCAD/DCS World/uitprobeer/helemaal leeg, geen componenten geen libs geen footprints20151230.sch")
+    (date "3-1-2016 19:54:11")
+    (tool "Eeschema 4.0.0-rc2-stable")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source "helemaal leeg, geen componenten geen libs geen footprints20151230.sch")
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref D1)
+      (value LED)
+      (footprint LEDs:LED-8MM)
+      (libsource (lib LED) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 56896BB7))
+    (comp (ref R1)
+      (value R)
+      (footprint Resistors_ThroughHole:Resistor_Horizontal_RM10mm)
+      (libsource (lib R) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 56896DFE)))
+  (libparts
+    (libpart (lib LED) (part LED)
+      (footprints
+        (fp LEDC3216X100N))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))))
+    (libpart (lib R) (part R)
+      (footprints
+        (fp RESC2012X100N)
+        (fp RESAD1690W80L890D400P))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive)))))
+  (libraries
+    (library (logical LED)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\LED.lib"))
+    (library (logical R)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\R.lib")))
+  (nets
+    (net (code 1) (name "Net-(D1-Pad1)")
+      (node (ref D1) (pin 1)))
+    (net (code 2) (name "Net-(R1-Pad1)")
+      (node (ref R1) (pin 1)))
+    (net (code 3) (name "Net-(D1-Pad2)")
+      (node (ref D1) (pin 2))
+      (node (ref R1) (pin 2)))))
