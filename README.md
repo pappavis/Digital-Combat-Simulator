@@ -7,7 +7,7 @@ Requiremens:
 KiCAD to view the files: http://kicad-pcb.org <br/>
 FlatCAM to generate GERBERs: http://flatcam.org<br/>
 <br/>
-EXAMPLE panel <img src=http://i.imgur.com/c4FUt3jm.png"><br/>
+3D renfer <img src="http://i.imgur.com/c4FUt3jm.png"><br/>
 
 Credits
 ---
