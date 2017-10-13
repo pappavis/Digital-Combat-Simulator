@@ -1,14 +1,5 @@
 # Digital-Combat-Simulator
 Cockpit Panels en printplate vir DCS World door Michiel Erasmus
-
-Credits
----
-Ontwerper: Michiel Erasmus<br>
-Datum:     12-2-2016<br>
-<br>
-=======
-ENGLISH:
-
 This is the main powerpanel design for flightsimulator DCS: MiG-21bis.
 
 Requiremens:
@@ -22,6 +13,8 @@ Credits
 ---
 **Contact** Michiel Erasmus <br/>
 **e-Mail** thebapodcast@gmail.com<br/>
+**Created** 12-2-2016<br/>
+
 <br/>
 Arduino Modulaire cockpit panel for the DCS: MiG-21bis by Eagle Dynamics &amp; Leatherneck Software<br/>
 
