@@ -4,7 +4,7 @@ ENG: This is the main powerpanel design for flightsimulator DCS: MiG-21bis.
 
 Requiremens:
 ---
-KiCAD to view the files: http://kicad-pcb.org <br/>
+KiCAD to view the files: http://kicad.org <br/>
 FlatCAM to generate GERBERs: http://flatcam.org<br/>
 <br/>
 3D render<br/>
